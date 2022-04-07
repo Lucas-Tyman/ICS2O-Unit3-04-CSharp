@@ -1,5 +1,5 @@
 // Created by: Lucas Tyman
-// Created on: Mar 2022
+// Created on: Apr 2022
 //
 // This program accepts user input
 
@@ -25,7 +25,7 @@ class Program
         fahreneit = Convert.ToDouble(Console.ReadLine());
 
         // process
-        celsius = (fahreneit - 32) * 5/9;
+        celsius = (fahreneit - 32) * 5 / 9;
 
         // output
         Console.WriteLine("");
